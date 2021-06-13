@@ -14,7 +14,7 @@
  *= require_self
  */
 
-.nav-item {
+.sidebar .nav-sidebar .nav-item {
   width: 230px;
 }
 
@@ -23,7 +23,7 @@
   width: 30%;
 }
 
-.nav-link {
+.sidebar .nav-sidebar .nav-item .nav-link {
   position: relative;
   float: left;
   width: 70%;
