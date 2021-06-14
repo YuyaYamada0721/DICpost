@@ -13,3 +13,26 @@
  *= require_tree .
  *= require_self
  */
+
+.sidebar .nav-sidebar .nav-item {
+  width: 230px;
+}
+
+.agenda-delete-button {
+  float: right;
+  width: 30%;
+}
+
+.sidebar .nav-sidebar .nav-item .nav-link {
+  position: relative;
+  float: left;
+  width: 70%;
+}
+
+.nav-link p {
+  width: 100%;
+}
+
+.agenda-title {
+  display: inline-block;
+}
