@@ -241,6 +241,7 @@ ja:
       create_agenda: 'アジェンダ作成'
       delete_agenda_btn: '削除'
       delete_agenda: 'アジェンダ削除'
+      delete_agenda_mail_subject: 'アジェンダを削除した事をチーム全員にメールしました'
       input_agenda_title: 'タイトル入力'
       input_team_name: 'チーム名を入力してください'
       recent_posts: '最近投稿された記事'
