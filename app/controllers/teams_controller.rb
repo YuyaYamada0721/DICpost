@@ -50,6 +50,7 @@ class TeamsController < ApplicationController
   def change_leader
     @team.update(owner_id: params[:owner_id])
     redirect_to team_path(@team)
+    LeaderChangeMailer.leader_change_mail(@team.owner).deliver_now
   end
 
   private
