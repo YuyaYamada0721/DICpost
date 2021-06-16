@@ -253,6 +253,7 @@ ja:
       invite_team_member: 'チームメンバー招待'
       team_leader: 'チームリーダー'
       leader: 'リーダー'
+      edit_check_leader: 'チームを編集する権限がありません'
       invitation_placeholder: '招待したい人のメールアドレスを入力してください'
       edit_profile: 'プロフィールを編集'
       team_you_belong_to: '所属しているチーム'

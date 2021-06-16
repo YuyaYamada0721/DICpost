@@ -1,6 +1,7 @@
 class TeamsController < ApplicationController
   before_action :authenticate_user!
   before_action :set_team, only: %i[show edit update destroy change_leader]
+  before_action :edit_check_leader, only: %i[edit]
 
   def index
     @teams = Team.all
