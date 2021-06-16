@@ -7,6 +7,13 @@ class ApplicationController < ActionController::Base
     user.save!
   end
 
+  def edit_check_leader
+    unless current_user == @team.owner
+      redirect_to @team
+      flash[:notice] = I18n.t('views.messages.edit_check_leader')
+    end
+  end
+
   private
 
   def set_working_team
